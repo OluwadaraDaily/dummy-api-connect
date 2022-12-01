@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f9fd;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  min-height: 150px;
+  background-color: #fff;
+  padding: 50px 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item img {
+  border: 1px solid #fff;
+  border-radius: 6px;
+}
+
+.title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
